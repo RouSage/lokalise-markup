@@ -1,0 +1,40 @@
+@import './base';
+@import './variables';
+
+body {
+  font-family: $font-stack;
+  font-weight: 400;
+  background-color: $background-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+.header {
+  padding: 25px 51px 24px 51px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+
+  &__list {
+    display: flex;
+    margin-left: 51px;
+  }
+  &__item {
+    margin-right: 42px;
+  }
+  &__link {
+    font-size: 15px;
+  }
+
+  &__buttons {
+    margin-left: auto;
+  }
+}
