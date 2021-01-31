@@ -48,6 +48,7 @@ h6 {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  border-bottom: 1px solid #ccc;
 }
 
 .header__list {

@@ -22,6 +22,7 @@ h6 {
   flex-flow: row nowrap;
   justify-content: flex-start;
   align-items: center;
+  border-bottom: 1px solid #ccc;
 
   &__list {
     display: flex;
