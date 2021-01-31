@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "ACAA,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACvB;;AAED,AAAA,CAAC,CAAC;EACA,eAAe,EAAE,IAAI;CACtB",
     "sources": [
-        "main.scss",
-        "styles/base.scss"
+        "../../scss/main.scss",
+        "../../scss/_base.scss"
     ],
     "names": [],
     "file": "main.css"
