@@ -69,4 +69,31 @@ h6 {
 .header__buttons {
   margin-left: auto;
 }
+
+a.button {
+  display: inline-block;
+  width: 120px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 0;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+a.button:hover {
+  color: #ff6336;
+  border-color: #ff6336;
+}
+
+a.button--primary {
+  background-color: #ff6336;
+  border-color: #ff6336;
+  color: #fff;
+}
+
+a.button--primary:hover {
+  color: #fff;
+  background-color: #ff9c7d;
+  border-color: #ff9c7d;
+}
 /*# sourceMappingURL=main.css.map */
