@@ -7,15 +7,6 @@ body {
   background-color: $background-color;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 600;
-}
-
 .header {
   padding: 25px 51px 24px 51px;
   display: flex;
@@ -38,6 +29,44 @@ h6 {
   &__buttons {
     margin-left: auto;
   }
+}
+
+.hero {
+  padding-top: 97px;
+  padding-bottom: 137px;
+
+  &__body {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__text {
+    text-align: left;
+    flex-basis: 552px;
+    & p {
+      padding-right: 76px;
+    }
+  }
+
+  &__buttons {
+    margin-bottom: 25px;
+    & .button {
+      width: 160px;
+      padding: 20px 0;
+      &:first-child {
+        margin-right: 5px;
+      }
+    }
+  }
+
+  &__img img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.wrapper {
+  padding: 0 75px;
 }
 
 a.button {

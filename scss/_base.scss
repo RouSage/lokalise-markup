@@ -12,3 +12,26 @@ a {
 ul {
   list-style: none;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+h1 {
+  font-size: 65px;
+  line-height: 75px;
+  margin-bottom: 51px;
+}
+
+p {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+span {
+  font-size: 15px;
+}
