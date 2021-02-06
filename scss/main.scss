@@ -7,6 +7,7 @@ body {
   background-color: $background-color;
 }
 
+// Header
 .header {
   padding: 25px 51px 24px 51px;
   display: flex;
@@ -31,6 +32,7 @@ body {
   }
 }
 
+// Hero section
 .hero {
   padding-top: 97px;
   padding-bottom: 137px;
@@ -69,6 +71,33 @@ body {
   padding: 0 75px;
 }
 
+// Sections
+.section {
+  text-align: center;
+  background-color: $background-color;
+
+  &__title {
+    max-width: 660px;
+    margin: 0 auto;
+  }
+
+  &--primary {
+    background-color: $primary-color-bg;
+  }
+}
+
+.companies {
+  padding: 104px 0;
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+  }
+}
+
+// Button
 a.button {
   display: inline-block;
   width: 120px;
