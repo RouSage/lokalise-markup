@@ -52,12 +52,8 @@ body {
 
   &__buttons {
     margin-bottom: 25px;
-    & .button {
-      width: 160px;
-      padding: 20px 0;
-      &:first-child {
-        margin-right: 5px;
-      }
+    & .button:first-child {
+      margin-right: 5px;
     }
   }
 
@@ -123,6 +119,7 @@ a.button {
     color: $primary-color;
     border-color: $primary-color;
   }
+
   &--primary {
     background-color: $primary-color;
     border-color: $primary-color;
@@ -132,5 +129,18 @@ a.button {
       background-color: $primary-color-hover;
       border-color: $primary-color-hover;
     }
+  }
+
+  &--dark {
+    background-color: #000;
+    color: #fff;
+    &:hover {
+      border-color: #000;
+    }
+  }
+
+  &--big {
+    width: 160px;
+    padding: 20px 0;
   }
 }

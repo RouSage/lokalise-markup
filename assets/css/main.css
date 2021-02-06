@@ -122,11 +122,6 @@ body {
   margin-bottom: 25px;
 }
 
-.hero__buttons .button {
-  width: 160px;
-  padding: 20px 0;
-}
-
 .hero__buttons .button:first-child {
   margin-right: 5px;
 }
@@ -210,5 +205,19 @@ a.button--primary:hover {
   color: #fff;
   background-color: #ff9c7d;
   border-color: #ff9c7d;
+}
+
+a.button--dark {
+  background-color: #000;
+  color: #fff;
+}
+
+a.button--dark:hover {
+  border-color: #000;
+}
+
+a.button--big {
+  width: 160px;
+  padding: 20px 0;
 }
 /*# sourceMappingURL=main.css.map */
