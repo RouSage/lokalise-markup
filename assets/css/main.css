@@ -146,7 +146,7 @@ body {
 }
 
 .section__title {
-  max-width: 660px;
+  max-width: 784px;
   margin: 0 auto;
 }
 
@@ -156,6 +156,10 @@ body {
 
 .companies {
   padding: 104px 0;
+}
+
+.companies__title {
+  max-width: 660px;
 }
 
 .companies__list {
@@ -172,6 +176,13 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 70px;
+}
+
+.text {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  margin: 0;
 }
 
 a.button {
