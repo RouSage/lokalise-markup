@@ -81,6 +81,13 @@ body {
   &--primary {
     background-color: $primary-color-bg;
   }
+
+  &__text {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    margin: 0;
+  }
 }
 
 .companies {
@@ -98,12 +105,16 @@ body {
   }
 }
 
-// Text
-.text {
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 400;
-  margin: 0;
+.tryit {
+  padding: 120px 0 160px 0;
+
+  &__title {
+    margin-bottom: 30px;
+  }
+
+  &__button {
+    margin-top: 55px;
+  }
 }
 
 // Button
