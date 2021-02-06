@@ -117,10 +117,24 @@ body {
   }
 }
 
+.integrate {
+  padding: 165px 0 162px 0;
+
+  &__text {
+    max-width: 505px;
+    margin: 0 auto;
+  }
+
+  &__img {
+    display: block;
+    margin: 25px auto 32px;
+  }
+}
+
 // Button
 a.button {
   display: inline-block;
-  width: 120px;
+  min-width: 120px;
   text-align: center;
   font-size: 16px;
   font-weight: 600;
@@ -151,7 +165,7 @@ a.button {
   }
 
   &--big {
-    width: 160px;
-    padding: 20px 0;
+    min-width: 160px;
+    padding: 20px 28px;
   }
 }
