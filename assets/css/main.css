@@ -185,32 +185,6 @@ body {
   margin-top: 70px;
 }
 
-.tryit {
-  padding: 120px 0 160px 0;
-}
-
-.tryit__title {
-  margin-bottom: 30px;
-}
-
-.tryit__button {
-  margin-top: 55px;
-}
-
-.integrate {
-  padding: 165px 0 162px 0;
-}
-
-.integrate__text {
-  max-width: 505px;
-  margin: 0 auto;
-}
-
-.integrate__img {
-  display: block;
-  margin: 25px auto 32px;
-}
-
 .rating {
   background-color: #dabc98;
   text-align: left;
@@ -269,6 +243,32 @@ body {
 .rating__small {
   text-transform: uppercase;
   letter-spacing: 0.75px;
+}
+
+.integrate {
+  padding: 165px 0 162px 0;
+}
+
+.integrate__text {
+  max-width: 505px;
+  margin: 0 auto;
+}
+
+.integrate__img {
+  display: block;
+  margin: 25px auto 32px;
+}
+
+.tryit {
+  padding: 120px 0 160px 0;
+}
+
+.tryit__title {
+  margin-bottom: 30px;
+}
+
+.tryit__button {
+  margin-top: 55px;
 }
 
 a.button {
