@@ -44,6 +44,11 @@ h5 {
   line-height: 40px;
 }
 
+h6 {
+  font-size: 25px;
+  line-height: 35px;
+}
+
 p {
   font-size: 25px;
   margin-bottom: 30px;
@@ -185,6 +190,44 @@ body {
 
 .application {
   padding: 120px 0 93px;
+  background-color: #fff8e4;
+}
+
+.application__container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  margin-top: 58px;
+}
+
+.application__item {
+  -webkit-flex-basis: 330px;
+      -ms-flex-preferred-size: 330px;
+          flex-basis: 330px;
+  margin-bottom: 57px;
+}
+
+.application__item h6 {
+  margin-top: 26px;
+  margin-bottom: 20px;
+}
+
+.application__text {
+  font-size: 18px;
+  line-height: 25px;
 }
 
 .productivity {
