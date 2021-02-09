@@ -131,6 +131,46 @@ body {
   }
 }
 
+.rating {
+  background-color: #dabc98;
+  text-align: left;
+  padding: 70px 0 80px;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__heading {
+    display: flex;
+    align-items: center;
+    flex-basis: 810px;
+    border-right: 1px solid #000;
+  }
+
+  &__title {
+    margin-left: 67px;
+  }
+
+  &__cards {
+    display: flex;
+    align-items: center;
+  }
+
+  &__card {
+    margin-right: 70px;
+  }
+
+  &__stars {
+    margin: 20px 0 14px;
+  }
+
+  &__small {
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+  }
+}
+
 // Button
 a.button {
   display: inline-block;

@@ -34,6 +34,11 @@ h2 {
   line-height: 60px;
 }
 
+h4 {
+  font-size: 35px;
+  line-height: 50px;
+}
+
 p {
   font-size: 25px;
   margin-bottom: 30px;
@@ -204,6 +209,66 @@ body {
 .integrate__img {
   display: block;
   margin: 25px auto 32px;
+}
+
+.rating {
+  background-color: #dabc98;
+  text-align: left;
+  padding: 70px 0 80px;
+}
+
+.rating__container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.rating__heading {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-basis: 810px;
+      -ms-flex-preferred-size: 810px;
+          flex-basis: 810px;
+  border-right: 1px solid #000;
+}
+
+.rating__title {
+  margin-left: 67px;
+}
+
+.rating__cards {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.rating__card {
+  margin-right: 70px;
+}
+
+.rating__stars {
+  margin: 20px 0 14px;
+}
+
+.rating__small {
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
 }
 
 a.button {
