@@ -185,6 +185,36 @@ body {
   margin-top: 70px;
 }
 
+.review {
+  padding: 53px 0 105px;
+  text-align: left;
+  background-color: #c9e8f2;
+}
+
+.review__container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.review__body {
+  -webkit-flex-basis: 840px;
+      -ms-flex-preferred-size: 840px;
+          flex-basis: 840px;
+  margin-right: 85px;
+}
+
+.review__body img {
+  display: block;
+  margin-top: 7px;
+}
+
+.review__text {
+  font-size: 30px;
+  margin-bottom: 23px;
+}
+
 .rating {
   background-color: #dabc98;
   text-align: left;

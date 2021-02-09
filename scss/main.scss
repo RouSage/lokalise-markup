@@ -105,8 +105,33 @@ body {
   }
 }
 
+.review {
+  padding: 53px 0 105px;
+  text-align: left;
+  background-color: $review-color;
+
+  &__container {
+    display: flex;
+  }
+
+  &__body {
+    flex-basis: 840px;
+    margin-right: 85px;
+
+    & img {
+      display: block;
+      margin-top: 7px;
+    }
+  }
+
+  &__text {
+    font-size: 30px;
+    margin-bottom: 23px;
+  }
+}
+
 .rating {
-  background-color: #dabc98;
+  background-color: $rating-color;
   text-align: left;
   padding: 70px 0 80px;
 
