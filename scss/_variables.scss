@@ -6,3 +6,11 @@ $primary-color-bg: #ff9c7d;
 $background-color: #fff;
 $review-color: #c9e8f2;
 $rating-color: #dabc98;
+$application-color: #fff8e4;
+
+@mixin text {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  margin: 0;
+}

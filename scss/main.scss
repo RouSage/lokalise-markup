@@ -37,12 +37,12 @@ body {
   padding-top: 97px;
   padding-bottom: 137px;
 
-  &__body {
+  &__container {
     display: flex;
     justify-content: center;
   }
 
-  &__text {
+  &__body {
     text-align: left;
     flex-basis: 552px;
     & p {
@@ -81,15 +81,9 @@ body {
   &--primary {
     background-color: $primary-color-bg;
   }
-
-  &__text {
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: 400;
-    margin: 0;
-  }
 }
 
+// Companies section
 .companies {
   padding: 104px 0;
 
@@ -105,13 +99,42 @@ body {
   }
 }
 
+// Application section
+.application {
+  padding: 120px 0 93px;
+  background-color: $application-color;
+
+  &__container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+    justify-content: space-around;
+    margin-top: 58px;
+  }
+
+  &__item {
+    flex-basis: 330px;
+    margin-bottom: 57px;
+
+    & h6 {
+      margin-top: 26px;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__text {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+// Productivity section
 .productivity {
   text-align: left;
   padding: 154px 0 120px;
 
   &__container {
     display: flex;
-    // justify-content: space-evenly;
     align-items: baseline;
     margin-top: 75px;
   }
@@ -127,9 +150,8 @@ body {
   }
 
   &__text {
-    font-size: 20px;
+    @include text;
     margin-bottom: 25px;
-    line-height: 30px;
   }
 
   &__link {
@@ -141,6 +163,7 @@ body {
   }
 }
 
+// Review section
 .review {
   padding: 53px 0 105px;
   text-align: left;
@@ -166,6 +189,7 @@ body {
   }
 }
 
+// Rating section
 .rating {
   background-color: $rating-color;
   text-align: left;
@@ -206,6 +230,7 @@ body {
   }
 }
 
+// Integrate section
 .integrate {
   padding: 165px 0 162px 0;
 
@@ -220,6 +245,7 @@ body {
   }
 }
 
+// Try it section
 .tryit {
   padding: 120px 0 160px 0;
 
@@ -229,6 +255,10 @@ body {
 
   &__button {
     margin-top: 55px;
+  }
+
+  &__text {
+    @include text;
   }
 }
 

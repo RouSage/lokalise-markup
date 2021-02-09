@@ -44,6 +44,11 @@ h5 {
   line-height: 40px;
 }
 
+h6 {
+  font-size: 25px;
+  line-height: 35px;
+}
+
 p {
   font-size: 25px;
   margin-bottom: 30px;
@@ -106,7 +111,7 @@ body {
   padding-bottom: 137px;
 }
 
-.hero__body {
+.hero__container {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -117,14 +122,14 @@ body {
           justify-content: center;
 }
 
-.hero__text {
+.hero__body {
   text-align: left;
   -webkit-flex-basis: 552px;
       -ms-flex-preferred-size: 552px;
           flex-basis: 552px;
 }
 
-.hero__text p {
+.hero__body p {
   padding-right: 76px;
 }
 
@@ -159,13 +164,6 @@ body {
   background-color: #ff9c7d;
 }
 
-.section__text {
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 400;
-  margin: 0;
-}
-
 .companies {
   padding: 104px 0;
 }
@@ -188,6 +186,48 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 70px;
+}
+
+.application {
+  padding: 120px 0 93px;
+  background-color: #fff8e4;
+}
+
+.application__container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  margin-top: 58px;
+}
+
+.application__item {
+  -webkit-flex-basis: 330px;
+      -ms-flex-preferred-size: 330px;
+          flex-basis: 330px;
+  margin-bottom: 57px;
+}
+
+.application__item h6 {
+  margin-top: 26px;
+  margin-bottom: 20px;
+}
+
+.application__text {
+  font-size: 18px;
+  line-height: 25px;
 }
 
 .productivity {
@@ -221,8 +261,10 @@ body {
 
 .productivity__text {
   font-size: 20px;
-  margin-bottom: 25px;
   line-height: 30px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 25px;
 }
 
 .productivity__link {
@@ -348,6 +390,13 @@ body {
 
 .tryit__button {
   margin-top: 55px;
+}
+
+.tryit__text {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  margin: 0;
 }
 
 a.button {
