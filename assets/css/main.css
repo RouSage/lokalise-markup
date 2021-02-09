@@ -106,7 +106,7 @@ body {
   padding-bottom: 137px;
 }
 
-.hero__body {
+.hero__container {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -117,14 +117,14 @@ body {
           justify-content: center;
 }
 
-.hero__text {
+.hero__body {
   text-align: left;
   -webkit-flex-basis: 552px;
       -ms-flex-preferred-size: 552px;
           flex-basis: 552px;
 }
 
-.hero__text p {
+.hero__body p {
   padding-right: 76px;
 }
 
@@ -157,13 +157,6 @@ body {
 
 .section--primary {
   background-color: #ff9c7d;
-}
-
-.section__text {
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 400;
-  margin: 0;
 }
 
 .companies {
@@ -221,8 +214,10 @@ body {
 
 .productivity__text {
   font-size: 20px;
-  margin-bottom: 25px;
   line-height: 30px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 25px;
 }
 
 .productivity__link {
@@ -348,6 +343,13 @@ body {
 
 .tryit__button {
   margin-top: 55px;
+}
+
+.tryit__text {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  margin: 0;
 }
 
 a.button {

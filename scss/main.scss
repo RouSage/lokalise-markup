@@ -37,12 +37,12 @@ body {
   padding-top: 97px;
   padding-bottom: 137px;
 
-  &__body {
+  &__container {
     display: flex;
     justify-content: center;
   }
 
-  &__text {
+  &__body {
     text-align: left;
     flex-basis: 552px;
     & p {
@@ -80,13 +80,6 @@ body {
 
   &--primary {
     background-color: $primary-color-bg;
-  }
-
-  &__text {
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: 400;
-    margin: 0;
   }
 }
 
@@ -128,9 +121,8 @@ body {
   }
 
   &__text {
-    font-size: 20px;
+    @include text;
     margin-bottom: 25px;
-    line-height: 30px;
   }
 
   &__link {
@@ -234,6 +226,10 @@ body {
 
   &__button {
     margin-top: 55px;
+  }
+
+  &__text {
+    @include text;
   }
 }
 
