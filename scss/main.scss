@@ -24,7 +24,7 @@ body {
     margin-right: 62px;
   }
   &__link {
-    font-size: 15px;
+    font-size: 0.9375rem;
   }
 
   &__buttons {
@@ -146,7 +146,7 @@ body {
   }
 
   &__link {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     &:hover {
       color: $primary-color;
@@ -183,7 +183,7 @@ body {
   }
 
   &__text {
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 25px;
   }
 }
@@ -236,12 +236,12 @@ body {
   }
 
   &__text {
-    font-size: 30px;
+    font-size: 1.875rem;
     margin-bottom: 17px;
   }
 
   & span {
-    font-size: 13px;
+    font-size: 0.812rem;
   }
 }
 
@@ -349,7 +349,7 @@ body {
   }
 
   &__link {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     &:hover {
       color: $primary-color;
@@ -372,7 +372,7 @@ body {
   }
 
   &__caption {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     line-height: 25px;
   }
@@ -411,7 +411,7 @@ a.button {
   display: inline-block;
   min-width: 120px;
   text-align: center;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   padding: 12px 0;
   border: 1px solid rgba($color: #000000, $alpha: 0.5);
@@ -446,7 +446,7 @@ a.button {
 }
 
 .text-link {
-  font-size: 20px;
+  font-size: 1.25rem;
   text-decoration: underline;
   &:hover {
     color: $primary-color;

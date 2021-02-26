@@ -24,48 +24,48 @@ h6 {
 }
 
 h1 {
-  font-size: 65px;
+  font-size: 4.06rem;
   line-height: 1.1;
   margin-bottom: 51px;
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 3.125rem;
   line-height: 1.2;
 }
 
 h3 {
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 1.4;
 }
 
 h4 {
-  font-size: 35px;
+  font-size: 2.19rem;
   line-height: 1.4;
 }
 
 h5 {
-  font-size: 30px;
+  font-size: 1.875rem;
   line-height: 1;
 }
 
 h6 {
-  font-size: 25px;
+  font-size: 1.562rem;
   line-height: 1;
 }
 
 p {
-  font-size: 25px;
+  font-size: 1.562rem;
   margin-bottom: 30px;
   line-height: 1.4;
 }
 
 span {
-  font-size: 15px;
+  font-size: 0.937rem;
 }
 
 small {
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 15px;
 }
 
@@ -110,7 +110,7 @@ body {
 }
 
 .header__link {
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 
 .header__buttons {
@@ -255,7 +255,7 @@ body {
 }
 
 .capabilities__text {
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1.5;
   font-weight: 400;
   margin: 0;
@@ -263,7 +263,7 @@ body {
 }
 
 .capabilities__link {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 
@@ -314,7 +314,7 @@ body {
 }
 
 .application__text {
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 25px;
 }
 
@@ -348,7 +348,7 @@ body {
 }
 
 .productivity__text {
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1.5;
   font-weight: 400;
   margin: 0;
@@ -381,12 +381,12 @@ body {
 }
 
 .review__text {
-  font-size: 30px;
+  font-size: 1.875rem;
   margin-bottom: 17px;
 }
 
 .review span {
-  font-size: 13px;
+  font-size: 0.812rem;
 }
 
 .rating {
@@ -476,7 +476,7 @@ body {
 }
 
 .tryit__text {
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1.5;
   font-weight: 400;
   margin: 0;
@@ -513,7 +513,7 @@ body {
 }
 
 .footer__text {
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1.5;
   font-weight: 400;
   margin: 0;
@@ -522,7 +522,7 @@ body {
 }
 
 .footer__link {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 
@@ -556,7 +556,7 @@ body {
 }
 
 .footer__caption {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
   line-height: 25px;
 }
@@ -600,7 +600,7 @@ a.button {
   display: inline-block;
   min-width: 120px;
   text-align: center;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   padding: 12px 0;
   border: 1px solid rgba(0, 0, 0, 0.5);
@@ -638,7 +638,7 @@ a.button--big {
 }
 
 .text-link {
-  font-size: 20px;
+  font-size: 1.25rem;
   text-decoration: underline;
 }
 
