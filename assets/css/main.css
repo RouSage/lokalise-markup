@@ -25,38 +25,39 @@ h6 {
 
 h1 {
   font-size: 65px;
-  line-height: 75px;
+  line-height: 1.1;
   margin-bottom: 51px;
 }
 
 h2 {
   font-size: 50px;
-  line-height: 60px;
+  line-height: 1.2;
 }
 
 h3 {
   font-size: 40px;
-  line-height: 50px;
+  line-height: 1.4;
 }
 
 h4 {
   font-size: 35px;
-  line-height: 50px;
+  line-height: 1.4;
 }
 
 h5 {
   font-size: 30px;
-  line-height: 40px;
+  line-height: 1;
 }
 
 h6 {
   font-size: 25px;
-  line-height: 35px;
+  line-height: 1;
 }
 
 p {
   font-size: 25px;
   margin-bottom: 30px;
+  line-height: 1.4;
 }
 
 span {
@@ -75,7 +76,7 @@ body {
 }
 
 .header {
-  padding: 25px 51px 24px 51px;
+  padding: 27px 51px 23px 51px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -105,7 +106,7 @@ body {
 }
 
 .header__item {
-  margin-right: 42px;
+  margin-right: 62px;
 }
 
 .header__link {
@@ -116,9 +117,13 @@ body {
   margin-left: auto;
 }
 
+.header__buttons a + a {
+  margin-left: 6px;
+}
+
 .hero {
-  padding-top: 97px;
-  padding-bottom: 137px;
+  padding-top: 124px;
+  padding-bottom: 174px;
 }
 
 .hero__container {
@@ -141,6 +146,7 @@ body {
 
 .hero__body p {
   padding-right: 76px;
+  margin-bottom: 50px;
 }
 
 .hero__buttons {
@@ -149,6 +155,10 @@ body {
 
 .hero__buttons .button:first-child {
   margin-right: 5px;
+}
+
+.hero__img {
+  padding-top: 30px;
 }
 
 .hero__img img {
@@ -175,7 +185,7 @@ body {
 }
 
 .companies {
-  padding: 104px 0;
+  padding: 108px 0 100px;
 }
 
 .companies__title {
@@ -236,7 +246,8 @@ body {
 }
 
 .capabilities__body--r {
-  padding-left: 190px;
+  padding-left: 138px;
+  padding-right: 80px;
 }
 
 .capabilities__title {
@@ -245,7 +256,7 @@ body {
 
 .capabilities__text {
   font-size: 20px;
-  line-height: 30px;
+  line-height: 1.5;
   font-weight: 400;
   margin: 0;
   margin-bottom: 30px;
@@ -266,7 +277,7 @@ body {
 }
 
 .application {
-  padding: 120px 0 93px;
+  padding: 120px 0 67px;
   background-color: #fff8e4;
 }
 
@@ -287,19 +298,19 @@ body {
   -webkit-justify-content: space-around;
       -ms-flex-pack: distribute;
           justify-content: space-around;
-  margin-top: 58px;
+  margin-top: 78px;
 }
 
 .application__item {
   -webkit-flex-basis: 330px;
       -ms-flex-preferred-size: 330px;
           flex-basis: 330px;
-  margin-bottom: 57px;
+  margin-bottom: 80px;
 }
 
 .application__item h6 {
-  margin-top: 26px;
-  margin-bottom: 20px;
+  margin-top: 25px;
+  margin-bottom: 24px;
 }
 
 .application__text {
@@ -309,7 +320,7 @@ body {
 
 .productivity {
   text-align: left;
-  padding: 154px 0 120px;
+  padding: 154px 0 194px;
 }
 
 .productivity__container {
@@ -332,20 +343,20 @@ body {
 }
 
 .productivity__item h5 {
-  margin-bottom: 34px;
   margin-top: 50px;
+  margin-bottom: 36px;
 }
 
 .productivity__text {
   font-size: 20px;
-  line-height: 30px;
+  line-height: 1.5;
   font-weight: 400;
   margin: 0;
   margin-bottom: 25px;
 }
 
 .review {
-  padding: 53px 0 105px;
+  padding: 62px 0 96px;
   text-align: left;
   background-color: #c9e8f2;
 }
@@ -371,13 +382,17 @@ body {
 
 .review__text {
   font-size: 30px;
-  margin-bottom: 23px;
+  margin-bottom: 17px;
+}
+
+.review span {
+  font-size: 13px;
 }
 
 .rating {
   background-color: #dabc98;
   text-align: left;
-  padding: 70px 0 80px;
+  padding: 90px 0 87px;
 }
 
 .rating__container {
@@ -407,7 +422,7 @@ body {
 }
 
 .rating__title {
-  margin-left: 67px;
+  margin-left: 48px;
 }
 
 .rating__cards {
@@ -426,7 +441,7 @@ body {
 }
 
 .rating__stars {
-  margin: 20px 0 14px;
+  margin: 10px 0 8px;
 }
 
 .rating__small {
@@ -440,29 +455,29 @@ body {
 
 .integrate__text {
   max-width: 505px;
-  margin: 0 auto;
+  margin: 4px auto 0;
 }
 
 .integrate__img {
   display: block;
-  margin: 25px auto 32px;
+  margin: 20px auto 31px;
 }
 
 .tryit {
-  padding: 120px 0 160px 0;
+  padding: 118px 0 160px 0;
 }
 
 .tryit__title {
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 
 .tryit__button {
-  margin-top: 55px;
+  margin-top: 52px;
 }
 
 .tryit__text {
   font-size: 20px;
-  line-height: 30px;
+  line-height: 1.5;
   font-weight: 400;
   margin: 0;
 }
@@ -499,7 +514,7 @@ body {
 
 .footer__text {
   font-size: 20px;
-  line-height: 30px;
+  line-height: 1.5;
   font-weight: 400;
   margin: 0;
   margin-top: 11px;

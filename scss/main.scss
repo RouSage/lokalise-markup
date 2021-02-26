@@ -9,7 +9,7 @@ body {
 
 // Header
 .header {
-  padding: 25px 51px 24px 51px;
+  padding: 27px 51px 23px 51px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-start;
@@ -21,7 +21,7 @@ body {
     margin-left: 51px;
   }
   &__item {
-    margin-right: 42px;
+    margin-right: 62px;
   }
   &__link {
     font-size: 15px;
@@ -29,13 +29,17 @@ body {
 
   &__buttons {
     margin-left: auto;
+
+    & a + a {
+      margin-left: 6px;
+    }
   }
 }
 
 // Hero section
 .hero {
-  padding-top: 97px;
-  padding-bottom: 137px;
+  padding-top: 124px;
+  padding-bottom: 174px;
 
   &__container {
     display: flex;
@@ -47,6 +51,7 @@ body {
     flex-basis: 552px;
     & p {
       padding-right: 76px;
+      margin-bottom: 50px;
     }
   }
 
@@ -57,9 +62,12 @@ body {
     }
   }
 
-  &__img img {
-    width: 100%;
-    height: auto;
+  &__img {
+    padding-top: 30px;
+    & img {
+      width: 100%;
+      height: auto;
+    }
   }
 }
 
@@ -85,7 +93,7 @@ body {
 
 // Companies section
 .companies {
-  padding: 104px 0;
+  padding: 108px 0 100px;
 
   &__title {
     max-width: 660px;
@@ -123,7 +131,8 @@ body {
       padding-right: 190px;
     }
     &--r {
-      padding-left: 190px;
+      padding-left: 138px;
+      padding-right: 80px;
     }
   }
 
@@ -152,7 +161,7 @@ body {
 
 // Application section
 .application {
-  padding: 120px 0 93px;
+  padding: 120px 0 67px;
   background-color: $application-color;
 
   &__container {
@@ -160,16 +169,16 @@ body {
     flex-flow: row wrap;
     align-items: baseline;
     justify-content: space-around;
-    margin-top: 58px;
+    margin-top: 78px;
   }
 
   &__item {
     flex-basis: 330px;
-    margin-bottom: 57px;
+    margin-bottom: 80px;
 
     & h6 {
-      margin-top: 26px;
-      margin-bottom: 20px;
+      margin-top: 25px;
+      margin-bottom: 24px;
     }
   }
 
@@ -182,7 +191,7 @@ body {
 // Productivity section
 .productivity {
   text-align: left;
-  padding: 154px 0 120px;
+  padding: 154px 0 194px;
 
   &__container {
     display: flex;
@@ -195,8 +204,8 @@ body {
     flex-basis: (100%/3);
 
     & h5 {
-      margin-bottom: 34px;
       margin-top: 50px;
+      margin-bottom: 36px;
     }
   }
 
@@ -208,7 +217,7 @@ body {
 
 // Review section
 .review {
-  padding: 53px 0 105px;
+  padding: 62px 0 96px;
   text-align: left;
   background-color: $review-color;
 
@@ -228,7 +237,11 @@ body {
 
   &__text {
     font-size: 30px;
-    margin-bottom: 23px;
+    margin-bottom: 17px;
+  }
+
+  & span {
+    font-size: 13px;
   }
 }
 
@@ -236,7 +249,7 @@ body {
 .rating {
   background-color: $rating-color;
   text-align: left;
-  padding: 70px 0 80px;
+  padding: 90px 0 87px;
 
   &__container {
     display: flex;
@@ -251,7 +264,7 @@ body {
   }
 
   &__title {
-    margin-left: 67px;
+    margin-left: 48px;
   }
 
   &__cards {
@@ -264,7 +277,7 @@ body {
   }
 
   &__stars {
-    margin: 20px 0 14px;
+    margin: 10px 0 8px;
   }
 
   &__small {
@@ -279,25 +292,25 @@ body {
 
   &__text {
     max-width: 505px;
-    margin: 0 auto;
+    margin: 4px auto 0;
   }
 
   &__img {
     display: block;
-    margin: 25px auto 32px;
+    margin: 20px auto 31px;
   }
 }
 
 // Try it section
 .tryit {
-  padding: 120px 0 160px 0;
+  padding: 118px 0 160px 0;
 
   &__title {
-    margin-bottom: 30px;
+    margin-bottom: 35px;
   }
 
   &__button {
-    margin-top: 55px;
+    margin-top: 52px;
   }
 
   &__text {
