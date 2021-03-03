@@ -26,7 +26,19 @@ h6 {
 h1 {
   font-size: 4.06rem;
   line-height: 1.1;
-  margin-bottom: 51px;
+  margin-bottom: 0.8em;
+}
+
+@media screen and (max-width: 1023px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 3rem;
+  }
 }
 
 h2 {
@@ -56,12 +68,30 @@ h6 {
 
 p {
   font-size: 1.562rem;
-  margin-bottom: 30px;
+  margin-bottom: 1.2em;
   line-height: 1.4;
+}
+
+@media screen and (max-width: 1023px) {
+  p {
+    font-size: 1.462rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  p {
+    font-size: 1.362rem;
+  }
 }
 
 span {
   font-size: 0.937rem;
+}
+
+@media screen and (max-width: 767px) {
+  span {
+    font-size: 0.737rem;
+  }
 }
 
 small {
@@ -146,7 +176,7 @@ body {
 
 .hero__body p {
   padding-right: 76px;
-  margin-bottom: 50px;
+  margin-bottom: 2em;
 }
 
 .hero__buttons {
@@ -155,6 +185,12 @@ body {
 
 .hero__buttons .button:first-child {
   margin-right: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .hero__buttons .button:first-child {
+    margin-bottom: 5px;
+  }
 }
 
 .hero__img {
@@ -166,8 +202,37 @@ body {
   height: auto;
 }
 
+@media screen and (max-width: 1023px) {
+  .hero {
+    padding-top: 62px;
+    padding-bottom: 87px;
+  }
+  .hero__container {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero {
+    padding-top: 31px;
+    padding-bottom: 44px;
+  }
+}
+
 .wrapper {
   padding: 0 75px;
+}
+
+@media screen and (max-width: 767px) {
+  .wrapper {
+    padding: 0 30px;
+  }
 }
 
 .section {

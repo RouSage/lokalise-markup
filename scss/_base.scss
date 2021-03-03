@@ -1,3 +1,5 @@
+@import './breakpoints';
+
 * {
   margin: 0;
   padding: 0;
@@ -24,7 +26,15 @@ h6 {
 h1 {
   font-size: 4.06rem;
   line-height: 1.1;
-  margin-bottom: 51px;
+  margin-bottom: 0.8em;
+
+  @media screen and (max-width: $bp-tablet) {
+    font-size: 3.5rem;
+  }
+
+  @media screen and (max-width: $bp-mobile) {
+    font-size: 3rem;
+  }
 }
 h2 {
   font-size: 3.125rem;
@@ -49,12 +59,24 @@ h6 {
 
 p {
   font-size: 1.562rem;
-  margin-bottom: 30px;
+  margin-bottom: 1.2em;
   line-height: 1.4;
+
+  @media screen and (max-width: $bp-tablet) {
+    font-size: 1.462rem;
+  }
+
+  @media screen and (max-width: $bp-mobile) {
+    font-size: 1.362rem;
+  }
 }
 
 span {
   font-size: 0.937rem;
+
+  @media screen and (max-width: $bp-mobile) {
+    font-size: 0.737rem;
+  }
 }
 
 small {
