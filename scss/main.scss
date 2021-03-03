@@ -121,13 +121,51 @@ body {
 
   &__title {
     max-width: 660px;
+    margin-bottom: 1.4em;
   }
 
   &__list {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 70px;
+  }
+
+  @media screen and (max-width: $bp-tablet) {
+    padding: 54px 0 50px;
+
+    &__title {
+      max-width: 550px;
+    }
+
+    &__list {
+      flex-wrap: wrap;
+    }
+
+    &__item {
+      flex-basis: (100%/3);
+      &:nth-child(1n + 4) {
+        margin-top: 10px;
+      }
+    }
+  }
+
+  @media screen and (max-width: $bp-mobile) {
+    padding: 27px 0 25px;
+
+    &__title {
+      max-width: 420px;
+    }
+
+    &__list {
+      justify-content: space-evenly;
+    }
+
+    &__item {
+      flex-basis: (100%/2);
+      &:nth-child(1n + 3) {
+        margin-top: 10px;
+      }
+    }
   }
 }
 

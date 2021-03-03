@@ -39,6 +39,14 @@ h1 {
 h2 {
   font-size: 3.125rem;
   line-height: 1.2;
+
+  @media screen and (max-width: $bp-tablet) {
+    font-size: 2.625rem;
+  }
+
+  @media screen and (max-width: $bp-mobile) {
+    font-size: 2rem;
+  }
 }
 h3 {
   font-size: 2.5rem;
