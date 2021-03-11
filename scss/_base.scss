@@ -59,6 +59,14 @@ h4 {
 h5 {
   font-size: 1.875rem;
   line-height: 1;
+
+  @media screen and (max-width: $bp-tablet) {
+    font-size: 1.575rem;
+  }
+
+  @media screen and (max-width: $bp-mobile) {
+    font-size: 1.275rem;
+  }
 }
 h6 {
   font-size: 1.562rem;

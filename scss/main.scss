@@ -335,14 +335,49 @@ body {
     flex-basis: (100%/3);
 
     & h5 {
-      margin-top: 50px;
-      margin-bottom: 36px;
+      margin-top: 1.667em;
+      margin-bottom: 1.2em;
     }
   }
 
   &__text {
     @include text;
     margin-bottom: 25px;
+  }
+
+  @media screen and (max-width: $bp-tablet) {
+    padding: 77px 0 97px;
+
+    &__container {
+      margin-top: 38px;
+    }
+
+    &__item {
+      padding-right: 24px;
+    }
+
+    &__text {
+      font-size: 1.05rem;
+    }
+  }
+
+  @media screen and (max-width: $bp-mobile) {
+    padding: 38px 0 48px;
+
+    &__container {
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    &__item {
+      flex-basis: auto;
+      margin-bottom: 20px;
+      padding-right: 0;
+    }
+
+    &__text {
+      font-size: 0.85rem;
+    }
   }
 }
 
@@ -581,5 +616,13 @@ a.button {
   text-decoration: underline;
   &:hover {
     color: $primary-color;
+  }
+
+  @media screen and (max-width: $bp-tablet) {
+    font-size: 1.05rem;
+  }
+
+  @media screen and (max-width: $bp-mobile) {
+    font-size: 0.85rem;
   }
 }
