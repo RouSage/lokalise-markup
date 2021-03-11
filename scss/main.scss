@@ -403,11 +403,46 @@ body {
 
   &__text {
     font-size: 1.875rem;
-    margin-bottom: 17px;
+    margin-bottom: 0.56em;
   }
 
   & span {
     font-size: 0.812rem;
+  }
+
+  @media screen and (max-width: $bp-tablet) {
+    padding: 31px 0 48px;
+
+    &__body {
+      margin-right: 42px;
+    }
+
+    &__text {
+      font-size: 1.575rem;
+    }
+  }
+
+  @media screen and (max-width: $bp-mobile) {
+    padding: 15px 0 24px;
+
+    &__container {
+      flex-direction: column-reverse;
+    }
+
+    &__body {
+      flex-basis: auto;
+      margin-right: 0;
+
+      & + img {
+        width: 260px;
+        height: auto;
+      }
+    }
+
+    &__text {
+      font-size: 1.275rem;
+      margin-top: 0.8em;
+    }
   }
 }
 

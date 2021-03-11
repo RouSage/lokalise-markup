@@ -634,11 +634,50 @@ body {
 
 .review__text {
   font-size: 1.875rem;
-  margin-bottom: 17px;
+  margin-bottom: 0.56em;
 }
 
 .review span {
   font-size: 0.812rem;
+}
+
+@media screen and (max-width: 1023px) {
+  .review {
+    padding: 31px 0 48px;
+  }
+  .review__body {
+    margin-right: 42px;
+  }
+  .review__text {
+    font-size: 1.575rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .review {
+    padding: 15px 0 24px;
+  }
+  .review__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .review__body {
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto;
+    margin-right: 0;
+  }
+  .review__body + img {
+    width: 260px;
+    height: auto;
+  }
+  .review__text {
+    font-size: 1.275rem;
+    margin-top: 0.8em;
+  }
 }
 
 .rating {
