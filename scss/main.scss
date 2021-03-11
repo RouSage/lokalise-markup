@@ -471,6 +471,8 @@ body {
   &__cards {
     display: flex;
     align-items: center;
+    flex-shrink: 0;
+    padding-left: 30px;
   }
 
   &__card {
@@ -484,6 +486,70 @@ body {
   &__small {
     text-transform: uppercase;
     letter-spacing: 0.75px;
+  }
+
+  @media screen and (max-width: $bp-desktop) {
+    &__title {
+      margin-left: 24px;
+    }
+
+    &__card {
+      margin-right: 35px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  @media screen and (max-width: $bp-tablet) {
+    padding: 45px 0 43px;
+
+    &__title {
+      margin-left: 20px;
+    }
+
+    &__cards {
+      flex-direction: column;
+      align-items: flex-start;
+      padding-left: 15px;
+    }
+
+    &__card {
+      margin-right: 0;
+      &:last-child {
+        margin-top: 30px;
+      }
+    }
+  }
+
+  @media screen and (max-width: $bp-mobile) {
+    padding: 22px 0 21px;
+
+    &__container {
+      flex-direction: column;
+    }
+
+    &__heading {
+      flex-basis: auto;
+      flex-wrap: wrap;
+      border-bottom: 1px solid #000;
+      border-right: none;
+      padding-bottom: 20px;
+    }
+
+    &__cards {
+      flex-flow: row wrap;
+      align-items: center;
+      padding-left: 20px;
+    }
+
+    &__card {
+      margin-top: 20px;
+      margin-right: 20px;
+      &:last-child {
+        margin-top: 20px;
+      }
+    }
   }
 }
 
