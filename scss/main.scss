@@ -277,14 +277,45 @@ body {
     margin-bottom: 80px;
 
     & h6 {
-      margin-top: 25px;
-      margin-bottom: 24px;
+      margin: 1em 0;
     }
   }
 
   &__text {
     font-size: 1.125rem;
-    line-height: 25px;
+    line-height: 1.6;
+  }
+
+  @media screen and (max-width: $bp-tablet) {
+    padding: 60px 0 33px;
+
+    &__container {
+      margin-top: 39px;
+    }
+
+    &__item {
+      margin-bottom: 40px;
+    }
+
+    &__text {
+      font-size: 1rem;
+    }
+  }
+
+  @media screen and (max-width: $bp-mobile) {
+    padding: 30px 0 16px;
+
+    &__container {
+      margin-top: 20px;
+    }
+
+    &__item {
+      margin-bottom: 20px;
+    }
+
+    &__text {
+      font-size: 0.875rem;
+    }
   }
 }
 

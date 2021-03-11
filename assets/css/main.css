@@ -78,6 +78,18 @@ h6 {
   line-height: 1;
 }
 
+@media screen and (max-width: 1023px) {
+  h6 {
+    font-size: 1.362rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h6 {
+    font-size: 1.162rem;
+  }
+}
+
 p {
   font-size: 1.562rem;
   margin-bottom: 1.2em;
@@ -471,13 +483,42 @@ body {
 }
 
 .application__item h6 {
-  margin-top: 25px;
-  margin-bottom: 24px;
+  margin: 1em 0;
 }
 
 .application__text {
   font-size: 1.125rem;
-  line-height: 25px;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 1023px) {
+  .application {
+    padding: 60px 0 33px;
+  }
+  .application__container {
+    margin-top: 39px;
+  }
+  .application__item {
+    margin-bottom: 40px;
+  }
+  .application__text {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .application {
+    padding: 30px 0 16px;
+  }
+  .application__container {
+    margin-top: 20px;
+  }
+  .application__item {
+    margin-bottom: 20px;
+  }
+  .application__text {
+    font-size: 0.875rem;
+  }
 }
 
 .productivity {
