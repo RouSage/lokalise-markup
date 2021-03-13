@@ -584,7 +584,7 @@ body {
   padding: 118px 0 160px 0;
 
   &__title {
-    margin-bottom: 35px;
+    margin-bottom: 0.54em;
   }
 
   &__button {
@@ -593,6 +593,14 @@ body {
 
   &__text {
     @include text;
+  }
+
+  @media screen and (max-width: $bp-tablet) {
+    padding: 59px 0 80px 0;
+  }
+
+  @media screen and (max-width: $bp-tablet) {
+    padding: 30px 0 40px 0;
   }
 }
 
