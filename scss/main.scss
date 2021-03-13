@@ -250,11 +250,19 @@ body {
       width: 100%;
       height: auto;
     }
+
+    &__text {
+      font-size: 1.05rem;
+    }
   }
 
-  @media screen and (max-width: $bp-tablet) {
+  @media screen and (max-width: $bp-mobile) {
     &__item {
       margin-bottom: 60px;
+    }
+
+    &__text {
+      font-size: 0.85rem;
     }
   }
 }
