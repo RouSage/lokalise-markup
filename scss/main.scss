@@ -617,7 +617,7 @@ body {
     flex-basis: 305px;
 
     & h3 {
-      margin-bottom: 30px;
+      margin-bottom: 0.75em;
     }
     & img {
       display: block;
@@ -688,6 +688,61 @@ body {
     margin-right: 75px;
     & small {
       display: block;
+    }
+  }
+
+  @media screen and (max-width: $bp-desktop) {
+    &__links {
+      padding-left: 70px;
+    }
+
+    &__list {
+      margin-right: 15px;
+    }
+  }
+
+  @media screen and (max-width: $bp-tablet) {
+    padding: 46px 0 24px;
+
+    &__container {
+      flex-direction: column;
+      margin-bottom: 48px;
+    }
+
+    &__links {
+      padding-top: 30px;
+      padding-left: 0;
+    }
+
+    &__rights {
+      margin-right: 38px;
+    }
+  }
+
+  @media screen and (max-width: $bp-mobile) {
+    padding: 23px 0 12px;
+
+    &__container {
+      margin-bottom: 24px;
+    }
+
+    &__links {
+      flex-wrap: wrap;
+    }
+
+    &__copy {
+      text-align: center;
+      margin-top: 24px;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      & img {
+        margin-bottom: 10px;
+      }
+    }
+
+    &__rights {
+      margin-right: auto;
     }
   }
 }
