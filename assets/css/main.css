@@ -850,6 +850,21 @@ body {
 .integrate__img {
   display: block;
   margin: 20px auto 31px;
+  max-width: 1023px;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 1023px) {
+  .integrate {
+    padding: 82px 0 81px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .integrate {
+    padding: 41px 0 40px 0;
+  }
 }
 
 .tryit {
