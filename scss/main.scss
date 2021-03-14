@@ -6,6 +6,8 @@ body {
   font-family: $font-stack;
   font-weight: 400;
   background-color: $background-color;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 // Header
@@ -652,6 +654,9 @@ body {
     }
     & img {
       display: block;
+      max-width: 300px;
+      width: 100%;
+      height: auto;
     }
   }
 

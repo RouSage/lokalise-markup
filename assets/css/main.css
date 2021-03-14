@@ -163,6 +163,8 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   background-color: #fff;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .header {
@@ -974,6 +976,9 @@ body {
 
 .footer__body img {
   display: block;
+  max-width: 300px;
+  width: 100%;
+  height: auto;
 }
 
 .footer__logo {
