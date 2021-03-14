@@ -1,3 +1,5 @@
+@import './breakpoints';
+
 * {
   margin: 0;
   padding: 0;
@@ -11,4 +13,113 @@ a {
 
 ul {
   list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+h1 {
+  font-size: 4.06rem;
+  line-height: 1.1;
+  margin-bottom: 0.8em;
+
+  @media screen and (max-width: $bp-tablet) {
+    font-size: 3.5rem;
+  }
+
+  @media screen and (max-width: $bp-mobile) {
+    font-size: 3rem;
+  }
+}
+h2 {
+  font-size: 3.125rem;
+  line-height: 1.2;
+
+  @media screen and (max-width: $bp-tablet) {
+    font-size: 2.625rem;
+  }
+
+  @media screen and (max-width: $bp-mobile) {
+    font-size: 2rem;
+  }
+}
+h3 {
+  font-size: 2.5rem;
+  line-height: 1.4;
+
+  @media screen and (max-width: $bp-tablet) {
+    font-size: 2rem;
+  }
+
+  @media screen and (max-width: $bp-mobile) {
+    font-size: 1.5rem;
+  }
+}
+h4 {
+  font-size: 2.19rem;
+  line-height: 1.4;
+
+  @media screen and (max-width: $bp-tablet) {
+    font-size: 1.7rem;
+  }
+
+  @media screen and (max-width: $bp-tablet) {
+    font-size: 1.3rem;
+  }
+}
+h5 {
+  font-size: 1.875rem;
+  line-height: 1;
+
+  @media screen and (max-width: $bp-tablet) {
+    font-size: 1.575rem;
+  }
+
+  @media screen and (max-width: $bp-mobile) {
+    font-size: 1.275rem;
+  }
+}
+h6 {
+  font-size: 1.562rem;
+  line-height: 1;
+
+  @media screen and (max-width: $bp-tablet) {
+    font-size: 1.362rem;
+  }
+
+  @media screen and (max-width: $bp-mobile) {
+    font-size: 1.162rem;
+  }
+}
+
+p {
+  font-size: 1.562rem;
+  margin-bottom: 1.2em;
+  line-height: 1.4;
+
+  @media screen and (max-width: $bp-tablet) {
+    font-size: 1.462rem;
+  }
+
+  @media screen and (max-width: $bp-mobile) {
+    font-size: 1.362rem;
+  }
+}
+
+span {
+  font-size: 0.937rem;
+
+  @media screen and (max-width: $bp-mobile) {
+    font-size: 0.737rem;
+  }
+}
+
+small {
+  font-size: 0.75rem;
+  line-height: 15px;
 }

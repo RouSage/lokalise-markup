@@ -2,37 +2,442 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lokalise</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lokalise</title>
+  <meta name="description" content="Lokalise app. The preferred localization tool of 1500+ companies.">
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 
-    <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/main.min.css" />
 </head>
 
 <body>
-    <header class="header">
-        <div class="logo">
-            <img src="./assets/img/logo.svg" alt="lokalize" class="logo__img">
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">
+      <img src="./assets/img/logo.svg" alt="lokalize" class="logo__img" width="130" height="28" />
+    </div>
+    <ul class="header__list">
+      <li class="header__item">
+        <a href="#" class="header__link">Product</a>
+      </li>
+      <li class="header__item">
+        <a href="#" class="header__link">Features</a>
+      </li>
+      <li class="header__item">
+        <a href="#" class="header__link">Pricing</a>
+      </li>
+      <li class="header__item">
+        <a href="#" class="header__link">Case studies</a>
+      </li>
+      <li class="header__item">
+        <a href="#" class="header__link">Resources</a>
+      </li>
+    </ul>
+    <div class="header__buttons">
+      <a href="#" class="header__login button">Log in</a>
+      <a href="#" class="header__try button button--primary">Try it free</a>
+    </div>
+  </header>
+  <!-- Main content -->
+  <main>
+    <!-- Hero section -->
+    <section class="hero">
+      <div class="wrapper">
+        <div class="hero__container">
+          <article class="hero__body">
+            <h1>Accelerate localization from code to delivery</h1>
+            <p>
+              A localization and translation management platform for agile
+              teams. Embrace automation, workflow transparency, and fast
+              project delivery.
+            </p>
+            <div class="hero__buttons">
+              <a href="#" class="button button--primary button--big">Try it free</a>
+              <a href="#" class="button button--big">Book a demo</a>
+            </div>
+            <span>Try all features for 14 days &middot; No credit card
+              required</span>
+          </article>
+          <div class="hero__img">
+            <img src="assets/img/hero_img.png" alt="Accelerate localization from code to delivery" width="759"
+                 height="529" />
+          </div>
         </div>
-        <ul class="header__list">
-            <li class="header__item"><a href="#" class="header__link">Product</a></li>
-            <li class="header__item"><a href="#" class="header__link">Features</a></li>
-            <li class="header__item"><a href="#" class="header__link">Pricing</a></li>
-            <li class="header__item"><a href="#" class="header__link">Case studies</a></li>
-            <li class="header__item"><a href="#" class="header__link">Resources</a></li>
+      </div>
+    </section>
+    <!-- Companies section -->
+    <section class="section section--primary companies">
+      <div class="wrapper">
+        <h2 class="section__title companies__title">
+          The preferred localization tool of 1500+ companies
+        </h2>
+        <ul class="companies__list">
+          <li class="companies__item">
+            <img src="./assets/img/specialized.svg" alt="SPECIALIZED" width="138" height="53" />
+          </li>
+          <li class="companies__item">
+            <img src="./assets/img/virgin_mobile.svg" alt="Virgin mobile" width="72" height="53" />
+          </li>
+          <li class="companies__item">
+            <img src="./assets/img/tidal.svg" alt="TIDAL" width="150" height="21" />
+          </li>
+          <li class="companies__item">
+            <img src="./assets/img/revolut.svg" alt="Revolut" width="112" height="25" />
+          </li>
+          <li class="companies__item">
+            <img src="./assets/img/yelp.svg" alt="yelp" width="107" height="53" />
+          </li>
+          <li class="companies__item">
+            <img src="./assets/img/daimler.svg" alt="DAIMLER" width="150" height="19" />
+          </li>
         </ul>
-        <div class="header__buttons">
-            <a href="#" class="header__login button">Log in</a>
-            <a href="#" class="header__try button button--primary">Try it free</a>
+      </div>
+    </section>
+    <!-- Capabilities section -->
+    <section class="section capabilities">
+      <div class="wrapper">
+        <div class="capabilities__container">
+          <div class="capabilities__item">
+            <article class="capabilities__body capabilities__body--l">
+              <h2 class="capabilities__title">
+                Control the localization process
+              </h2>
+              <p class="capabilities__text">
+                Collaborate with your team in a single workspace. Add and
+                assign <a href="#" class="text-link">tasks</a>, track
+                progress, and enjoy a seamless localization workflow where you
+                know who is doing what and when.
+              </p>
+              <a href="#" class="capabilities__link">Start now</a>
+            </article>
+            <img src="./assets/img/control.png" alt="Control the localization process" class="capabilities__img"
+                 width="632" height="632" />
+          </div>
+          <div class="capabilities__item">
+            <img src="./assets/img/time.png" alt="Shorten time to market" class="capabilities__img" width="632"
+                 height="632" />
+            <article class="capabilities__body capabilities__body--r">
+              <h2 class="capabilities__title">Shorten time to market</h2>
+              <p class="capabilities__text">
+                Localize your product in parallel with the development cycle.
+                Use the <a href="#" class="text-link">Adobe XD</a>,
+                <a href="#" class="text-link">Figma</a>, and
+                <a href="#" class="text-link">Sketch</a>
+                plugins to start working on translations as soon as the
+                product design is ready. No more idle waiting.
+              </p>
+              <a href="#" class="capabilities__link">Start now</a>
+            </article>
+          </div>
+          <div class="capabilities__item">
+            <article class="capabilities__body capabilities__body--l">
+              <h2 class="capabilities__title">Ensure quality</h2>
+              <p class="capabilities__text">
+                Use built-in tools &ndash; e.g.
+                <a href="#" class="text-link">translation memory</a>, machine
+                translation, and
+                <a href="#" class="text-link">QA checks</a> &ndash; to enhance
+                the quality and cohesion of translations. Add product
+                <a href="#" class="text-link">screenshots</a> for context and
+                use the
+                <a href="#" class="text-link">in-context editors</a> for
+                instant previews.
+              </p>
+              <a href="#" class="capabilities__link">Start now</a>
+            </article>
+            <img src="./assets/img/quality.png" alt="Ensure quality" class="capabilities__img" width="632"
+                 height="632" />
+          </div>
+          <div class="capabilities__item">
+            <img src="./assets/img/work.png" alt="Less work for developers" class="capabilities__img" width="632"
+                 height="577" />
+            <article class="capabilities__body capabilities__body--r">
+              <h2 class="capabilities__title">Less work for developers</h2>
+              <p class="capabilities__text">
+                Eliminate the hassle of localization and let developers get
+                back to their main tasks. Save hours with the powerful
+                <a href="#" class="text-link">API</a>,
+                <a href="#" class="text-link">CLI</a>,
+                <a href="#" class="text-link">mobile SDKs</a>, and
+                integrations with <a href="#" class="text-link">GitHub</a>,
+                <a href="#" class="text-link">Bitbucket</a>,
+                <a href="#" class="text-link">JIRA</a>, and more.
+              </p>
+              <a href="#" class="capabilities__link">Start now</a>
+            </article>
+          </div>
         </div>
-    </header>
-    <main>
-        <h1>Hello World</h1>
-    </main>
-    <footer class="footer"></footer>
+      </div>
+    </section>
+    <!-- Application section -->
+    <section class="section application">
+      <div class="wrapper">
+        <h2>What can you localize with Lokalise?</h2>
+        <div class="application__container">
+          <div class="application__item">
+            <img src="./assets/img/web.png" alt="Web apps" width="160" height="120" />
+            <h6>Web apps</h6>
+            <span class="application__text">
+              Any kind of web apps &ndash; backend, frontend, single page,
+              blogs &ndash; you name it.
+            </span>
+          </div>
+          <div class="application__item">
+            <img src="./assets/img/mobile.png" alt="Mobile apps" width="160" height="120" />
+            <h6>Mobile apps</h6>
+            <span class="application__text">
+              Upload any mobile platform language files. Embed Lokalise iOS
+              SDK or Lokalise Android SDK if you prefer.
+            </span>
+          </div>
+          <div class="application__item">
+            <img src="./assets/img/games.png" alt="Games" width="160" height="120" />
+            <h6>Games</h6>
+            <span class="application__text">
+              Our cloud software is trusted by many leading game developers
+              around the world.
+            </span>
+          </div>
+          <div class="application__item">
+            <img src="./assets/img/documents.png" alt="Documents" width="160" height="120" />
+            <h6>Documents</h6>
+            <span class="application__text">
+              Upload your DOCX and static HTML files.
+            </span>
+          </div>
+          <div class="application__item">
+            <img src="./assets/img/emails.png" alt="Marketing e-mails" width="160" height="120" />
+            <h6>Marketing e-mails</h6>
+            <span class="application__text">
+              Integrate with Salesforce Marketing Cloud (coming soon) or
+              translate static e-mails.
+            </span>
+          </div>
+          <div class="application__item">
+            <img src="./assets/img/iot.png" alt="Internet of Things" width="160" height="120" />
+            <h6>IoT</h6>
+            <span class="application__text">
+              We support most popular localization file formats.
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Productivity section -->
+    <section class="section productivity">
+      <div class="wrapper">
+        <h2>Boost your localization team’s productivity tenfold</h2>
+        <div class="productivity__container">
+          <div class="productivity__item">
+            <img src="./assets/img/managers.png" alt="Managers" width="145" height="201" />
+            <h5>Managers</h5>
+            <p class="productivity__text">
+              Update existing and launch new features and products while
+              simultaneously localizing them in multiple languages. Streamline
+              your team's workflow, maximize productivity, and speed up
+              expansion to other markets.
+            </p>
+            <a href="#" class="text-link">Learn more</a>
+          </div>
+          <div class="productivity__item">
+            <img src="./assets/img/developers.png" alt="Managers" width="179" height="166" />
+            <h5>Developers</h5>
+            <p class="productivity__text">
+              Set up an integration with your code repository or your own
+              custom SDK via Lokalise's
+              <a href="#" class="text-link">powerful API</a>. Do that once,
+              and every time you make changes in the code, they'll be
+              automatically imported to Lokalise for translation.
+            </p>
+            <a href="#" class="text-link">Learn more</a>
+          </div>
+          <div class="productivity__item">
+            <img src="./assets/img/translators.png" alt="Managers" width="179" height="183" />
+            <h5>Translators</h5>
+            <p class="productivity__text">
+              Eliminate double-work and neverending revisions with visual
+              context (screenshots) and live previews. Improve the quality and
+              speed of your translations with built-in CAT tools, like
+              autocomplete, inline machine translation, and translation
+              memory.
+            </p>
+            <a href="#" class="text-link">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Review section -->
+    <section class="section review">
+      <div class="wrapper">
+        <div class="review__container">
+          <article class="review__body">
+            <p class="review__text">
+              &dblac;Lokalise has turned a task we were dreading into an
+              absolute pleasure. Great platform, intuitive UX, powerful API.
+              The automatic text recognition for screenshots has been a
+              lifesaver, and over-the-air updates are the icing on the
+              cake.&dblac;
+            </p>
+            <span>Edward Cooper, Chief Mobile Officer</span>
+            <img src="./assets/img/revolut.svg" alt="Revolut" width="112" height="25" />
+          </article>
+          <img src="./assets/img/edward.jpg" alt="Edward Cooper" width="310" height="310" />
+        </div>
+      </div>
+    </section>
+    <!-- Rating section -->
+    <section class="section rating">
+      <div class="wrapper">
+        <div class="rating__container">
+          <div class="rating__heading">
+            <img src="./assets/img/cake.png" alt="Lokalise" width="176" height="154" />
+            <h4 class="rating__title">
+              The most-loved translation management software
+            </h4>
+          </div>
+          <div class="rating__cards">
+            <div class="rating__card">
+              <img src="./assets/img/g.svg" alt="G" width="36" height="36" />
+              <div class="rating__stars">
+                <img src="./assets/img/star.svg" alt="star" width="21" height="20" />
+                <img src="./assets/img/star.svg" alt="star" width="21" height="20" />
+                <img src="./assets/img/star.svg" alt="star" width="21" height="20" />
+                <img src="./assets/img/star.svg" alt="star" width="21" height="20" />
+                <img src="./assets/img/star.svg" alt="star" width="21" height="20" />
+              </div>
+              <span class="rating__small">Users love us</span>
+            </div>
+            <div class="rating__card">
+              <img src="./assets/img/capterra.svg" alt="Capterra" width="150" height="37" />
+              <div class="rating__stars">
+                <img src="./assets/img/star.svg" alt="star" width="21" height="20" />
+                <img src="./assets/img/star.svg" alt="star" width="21" height="20" />
+                <img src="./assets/img/star.svg" alt="star" width="21" height="20" />
+                <img src="./assets/img/star.svg" alt="star" width="21" height="20" />
+                <img src="./assets/img/star.svg" alt="star" width="21" height="20" />
+              </div>
+              <span class="rating__small">Highest rated</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Integrate section -->
+    <section class="section integrate">
+      <div class="wrapper">
+        <h1 class="section__title">
+          Integrate Lokalise with your work tools
+        </h1>
+        <p class="integrate__text">
+          Automate processes, eliminate routine tasks, and track progress with
+          ease.
+        </p>
+        <img src="./assets/img/lokalise_2.png" alt="Lokalise" class="integrate__img" width="1023" height="445" />
+        <a href="#" class="button button--primary button--big">See all integrations</a>
+      </div>
+    </section>
+    <!-- Try it free section -->
+    <section class="section section--primary tryit">
+      <div class="wrapper">
+        <h1 class="section__title tryit__title">
+          Localization made easy. Why wait?
+        </h1>
+        <p class="tryit__text">
+          Try for free or let us show you how it works.
+        </p>
+        <a href="#" class="button button--dark button--big tryit__button">Try it free</a>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="wrapper">
+      <div class="footer__container">
+        <article class="footer__body">
+          <h3>Case studies</h3>
+          <img src="./assets/img/cyclists.jpg" alt="Specialized" width="300" height="300" />
+          <img src="./assets/img/specialized.svg" alt="Specialized" title="Specialized" class="footer__logo" width="138"
+               height="53" />
+          <p class="footer__text">
+            Riding towards global success with a 100% teammate enthusiasm
+          </p>
+          <a href="#" class="footer__link">Read more</a>
+        </article>
+        <div class="footer__links">
+          <ul class="footer__list">
+            <li><span class="footer__caption">Product</span></li>
+            <li><a href="#"><span>For developers</span></a></li>
+            <li><a href="#"><span>For managers</span></a></li>
+            <li><a href="#"><span>For translators</span></a></li>
+            <li><a href="#"><span>For designers</span></a></li>
+            <li><a href="#"><span>Integrations</span></a></li>
+            <li><a href="#"><span>Security</span></a></li>
+            <li><a href="#"><span>Pricing</span></a></li>
+            <li><a href="#"><span>Automations</span></a></li>
+          </ul>
+          <ul class="footer__list">
+            <li><span class="footer__caption">Support</span></li>
+            <li><a href="#"><span>Contact</span></a></li>
+            <li><a href="#"><span>Documentation</span></a></li>
+            <li><a href="#"><span>Status</span></a></li>
+            <li><a href="#"><span>Product Updates</span></a></li>
+            <li><a href="#"><span>CLI Tool</span></a></li>
+            <li><a href="#"><span>API Reference</span></a></li>
+            <li><a href="#"><span>iOS and Android SDK</span></a></li>
+            <li><a href="#"><span>Supported File Formats</span></a></li>
+          </ul>
+          <ul class="footer__list">
+            <li><span class="footer__caption">Company</span></li>
+            <li><a href="#"><span>About</span></a></li>
+            <li><a href="#"><span>Blog</span></a></li>
+            <li><a href="#"><span>Careers &verbar; We&grave;re hiring</span></a></li>
+            <li><a href="#"><span>Case Studies</span></a></li>
+            <li><a href="#"><span>Media Kit</span></a></li>
+          </ul>
+          <ul class="footer__list">
+            <li><span class="footer__caption">Legal</span></li>
+            <li><a href="#"><span>Terms of Service</span></a></li>
+            <li><a href="#"><span>Privacy Policy</span></a></li>
+            <li><a href="#"><span>Cookie Policy</span></a></li>
+            <li><a href="#"><span>Privacy Shield</span></a></li>
+            <li><a href="#"><span>DPA</span></a></li>
+            <li><a href="#"><span>List of Sub-processors</span></a></li>
+            <li><a href="#"><span>Candidates Privacy Notice</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <hr class="footer__divider" />
+      <div class="footer__copy">
+        <img src="./assets/img/lokalise.svg" alt="Lokalise" width="90" height="21">
+        <small>
+          Localization workflow for your web and mobile apps, games and digital content.
+        </small>
+        <div class="footer__rights">
+          <small>&copy;2001&dash;2020</small>
+          <small>All rights reserved.</small>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
