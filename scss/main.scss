@@ -652,7 +652,7 @@ body {
     & h3 {
       margin-bottom: 0.75em;
     }
-    & img {
+    & img:first-of-type {
       display: block;
       max-width: 300px;
       width: 100%;
