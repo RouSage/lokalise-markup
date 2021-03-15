@@ -974,7 +974,7 @@ body {
   margin-bottom: 0.75em;
 }
 
-.footer__body img {
+.footer__body img:first-of-type {
   display: block;
   max-width: 300px;
   width: 100%;
